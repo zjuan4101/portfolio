@@ -83,12 +83,24 @@ function ContactForm() {
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.module.scss */ "./src/components/Footer/Footer.module.scss");
+// Footer.js
+
 
 
 function Footer() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
     className: "footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 2024 Your Portfolio"));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "social-links"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://linkedin.com/in/juan-zelaya-castillo1",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://github.com/zjuan4101",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "GitHub")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\xA9 2024 Your Portfolio"));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
@@ -239,9 +251,40 @@ function HomePage() {
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `.ZgkNgGkoqJknOpTl03n2 {
+  text-align: center;
+  /* Example styles for the contact form inputs */
+  /* Example styles for the submit button */
+}
+.ZgkNgGkoqJknOpTl03n2 h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.ZgkNgGkoqJknOpTl03n2 input[type=text],
+.ZgkNgGkoqJknOpTl03n2 textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.ZgkNgGkoqJknOpTl03n2 button[type=submit] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.ZgkNgGkoqJknOpTl03n2 button[type=submit]:hover {
+  background-color: #0056b3;
+}`, "",{"version":3,"sources":["webpack://./src/components/ContactForm/ContactForm.module.scss"],"names":[],"mappings":"AAAA;EACI,kBAAA;EAOA,+CAAA;EAWA,yCAAA;AAfJ;AADI;EACE,eAAA;EACA,mBAAA;AAGN;AACI;;EAEE,WAAA;EACA,aAAA;EACA,mBAAA;EACA,sBAAA;EACA,kBAAA;EACA,sBAAA;AACN;AAGI;EACE,kBAAA;EACA,yBAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;EACA,eAAA;EACA,sCAAA;AADN;AAGM;EACE,yBAAA;AADR","sourcesContent":[".contact-form {\n    text-align: center;\n  \n    h2 {\n      font-size: 2rem;\n      margin-bottom: 20px;\n    }\n  \n    /* Example styles for the contact form inputs */\n    input[type=\"text\"],\n    textarea {\n      width: 100%;\n      padding: 10px;\n      margin-bottom: 20px;\n      border: 1px solid #ccc;\n      border-radius: 5px;\n      box-sizing: border-box;\n    }\n  \n    /* Example styles for the submit button */\n    button[type=\"submit\"] {\n      padding: 10px 20px;\n      background-color: #007bff;\n      color: #fff;\n      border: none;\n      border-radius: 5px;\n      cursor: pointer;\n      transition: background-color 0.3s ease;\n  \n      &:hover {\n        background-color: #0056b3;\n      }\n    }\n  }"],"sourceRoot":""}]);
 // Exports
-___CSS_LOADER_EXPORT___.locals = {};
+___CSS_LOADER_EXPORT___.locals = {
+	"contact-form": `ZgkNgGkoqJknOpTl03n2`
+};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
@@ -265,9 +308,34 @@ ___CSS_LOADER_EXPORT___.locals = {};
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `.ceS4EgxnSPoT9JOwqjeP {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ccc;
+}
+.ceS4EgxnSPoT9JOwqjeP p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}
+.ceS4EgxnSPoT9JOwqjeP .us9nPEnfYORGFTQ71Q7c {
+  margin-bottom: 20px;
+}
+.ceS4EgxnSPoT9JOwqjeP .us9nPEnfYORGFTQ71Q7c a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #007bff; /* Or your preferred color */
+  text-decoration: none;
+}
+.ceS4EgxnSPoT9JOwqjeP .us9nPEnfYORGFTQ71Q7c a:hover {
+  text-decoration: underline;
+}`, "",{"version":3,"sources":["webpack://./src/components/Footer/Footer.module.scss"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,eAAA;EACA,yBAAA;EACA,0BAAA;AACJ;AACI;EACE,SAAA;EACA,eAAA;EACA,WAAA;AACN;AAEI;EACI,mBAAA;AAAR;AAEQ;EACE,qBAAA;EACA,kBAAA;EACA,cAAA,EAAA,4BAAA;EACA,qBAAA;AAAV;AAEU;EACE,0BAAA;AAAZ","sourcesContent":[".footer {\n    text-align: center;\n    padding: 20px 0;\n    background-color: #f8f9fa;\n    border-top: 1px solid #ccc;\n  \n    p {\n      margin: 0;\n      font-size: 1rem;\n      color: #555;\n    }\n\n    .social-links {\n        margin-bottom: 20px;\n    \n        a {\n          display: inline-block;\n          margin-right: 10px;\n          color: #007bff; /* Or your preferred color */\n          text-decoration: none;\n    \n          &:hover {\n            text-decoration: underline;\n          }\n        }\n      }\n    }"],"sourceRoot":""}]);
 // Exports
-___CSS_LOADER_EXPORT___.locals = {};
+___CSS_LOADER_EXPORT___.locals = {
+	"footer": `ceS4EgxnSPoT9JOwqjeP`,
+	"social-links": `us9nPEnfYORGFTQ71Q7c`
+};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
@@ -291,9 +359,41 @@ ___CSS_LOADER_EXPORT___.locals = {};
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `.k5rxhHqufc0wTH_iRBgY {
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f8f9fa;
+}`, "",{"version":3,"sources":["webpack://./src/components/Header/Header.module.scss"],"names":[],"mappings":"AAAA;EACI,yBAAA;EACA,eAAA;AACJ;;AAEE;EACE,qBAAA;EACA,SAAA;EACA,UAAA;EACA,kBAAA;AACJ;;AAEE;EACE,qBAAA;EACA,kBAAA;AACJ;;AAEE;EACE,eAAA;AACJ;;AAEE;EACE,WAAA;EACA,qBAAA;EACA,iBAAA;EACA,2BAAA;AACJ;;AAEE;EACE,cAAA;AACJ","sourcesContent":[".header {\n    background-color: #007bff;\n    padding: 10px 0;\n  }\n  \n  nav ul {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n    text-align: center;\n  }\n  \n  nav ul li {\n    display: inline-block;\n    margin-right: 20px;\n  }\n  \n  nav ul li:last-child {\n    margin-right: 0;\n  }\n  \n  nav ul li a {\n    color: #fff;\n    text-decoration: none;\n    font-size: 1.2rem;\n    transition: color 0.3s ease;\n  }\n  \n  nav ul li a:hover {\n    color: #f8f9fa;\n  }"],"sourceRoot":""}]);
 // Exports
-___CSS_LOADER_EXPORT___.locals = {};
+___CSS_LOADER_EXPORT___.locals = {
+	"header": `k5rxhHqufc0wTH_iRBgY`
+};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
@@ -317,9 +417,21 @@ ___CSS_LOADER_EXPORT___.locals = {};
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `.H5lR_Gj2HQOx_dQg4XCr {
+  text-align: center;
+  margin-top: 50px;
+}
+.H5lR_Gj2HQOx_dQg4XCr h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.H5lR_Gj2HQOx_dQg4XCr p {
+  font-size: 1.2rem;
+}`, "",{"version":3,"sources":["webpack://./src/components/NotFound/NotFound.module.scss"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,gBAAA;AACJ;AACI;EACE,eAAA;EACA,mBAAA;AACN;AAEI;EACE,iBAAA;AAAN","sourcesContent":[".not-found {\n    text-align: center;\n    margin-top: 50px;\n  \n    h2 {\n      font-size: 2rem;\n      margin-bottom: 20px;\n    }\n  \n    p {\n      font-size: 1.2rem;\n    }\n  }\n  "],"sourceRoot":""}]);
 // Exports
-___CSS_LOADER_EXPORT___.locals = {};
+___CSS_LOADER_EXPORT___.locals = {
+	"not-found": `H5lR_Gj2HQOx_dQg4XCr`
+};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
@@ -392,9 +504,18 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, `.ZxKPICSwayuwHOg6ncfJ {
+  text-align: center;
+  margin-top: 50px;
+}
+.ZxKPICSwayuwHOg6ncfJ h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}`, "",{"version":3,"sources":["webpack://./src/pages/HomePage/HomePage.module.scss"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,gBAAA;AACJ;AACI;EACE,eAAA;EACA,mBAAA;AACN","sourcesContent":[".home-page {\n    text-align: center;\n    margin-top: 50px;\n  \n    h2 {\n      font-size: 2rem;\n      margin-bottom: 20px;\n    }\n  \n}"],"sourceRoot":""}]);
 // Exports
-___CSS_LOADER_EXPORT___.locals = {};
+___CSS_LOADER_EXPORT___.locals = {
+	"home-page": `ZxKPICSwayuwHOg6ncfJ`
+};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
@@ -912,4 +1033,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.12b72a4bcccb6bc0827c8098640f2250.js.map
+//# sourceMappingURL=App.eefadbfc0b4d4ef48e2bff3356bc267f.js.map
