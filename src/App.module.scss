@@ -1,25 +1,15 @@
-body {
-    margin: 0;
+.app-container {
+    display: flex !important;
+    flex-direction: column;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    background-color: white;
-}
-
-.banner{
-    width: 100%;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    img {
-        width: 50%;
-        max-height: 300px;
-    }
-    h1 {
-        width: 100%;
-        text-align: center;
-        color: rgba(23,5, 58, 0.8);
-    }
-}
+    align-content: center;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  

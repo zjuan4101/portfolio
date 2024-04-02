@@ -1,4 +1,3 @@
-// Controller for handling contact form submissions
 exports.submitContactForm = (req, res) => {
     const { name, email, message } = req.body;
     // Logic to handle contact form submission (e.g., send email)

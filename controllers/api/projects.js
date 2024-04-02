@@ -1,4 +1,3 @@
-// Example controller for projects
 exports.getAllProjects = (req, res) => {
     const projects = [
       { id: 1, name: 'Project 1', description: 'Description of Project 1' },
